@@ -20,12 +20,24 @@
   "bugs": {
     "url": "https://github.com/BrandonL23/valentines-app/issues"
   },
-  "homepage": "https://github.com/BrandonL23/valentines-app",
+  "homepage": "https://BrandonL23.github.io/valentines-app",
   "dependencies": {
     "framer-motion": "^12.4.1",
     "gh-pages": "^6.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-scripts": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
