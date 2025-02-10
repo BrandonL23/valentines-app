@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/BrandonL23/valentines-app/issues"
   },
-  "homepage": "https://BrandonL23.github.io/valentines-app",
+  "homepage": "https://brandon-lau.com",
   "dependencies": {
     "framer-motion": "^12.4.1",
     "react": "^19.0.0",

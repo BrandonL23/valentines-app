@@ -29,6 +29,11 @@ const ValentinesPage = () => {
     return () => document.removeEventListener("mousemove", () => setShowText(true));
   }, []);
 
+  const clearAllImages = () => {
+    setImages([]); // Clears all images
+    setShowText(true); // Triggers Valentine question
+  };
+
   const closeExpandedImage = () => {
     setImages((prevImages) => prevImages.filter((img) => img.id !== expandedImage.id));
     setExpandedImage(null);
@@ -57,6 +62,10 @@ const ValentinesPage = () => {
   return (
     <div className="valentine-container">
       {accepted && <Confetti width={window.innerWidth} height={window.innerHeight} />}
+      {/* Star Button - Clears Photos */}
+      <button className="star-button" onClick={clearAllImages}>
+        ⭐
+      </button>
       <div className="photo-stack" style={{ width: "100vw", height: "100vh", position: "relative" }}>
         {images.map((img, index) => (
           <motion.div
