@@ -6,7 +6,7 @@ import "./Valentine.css";
 const generateImages = (count) => {
   return Array.from({ length: count }, (_, i) => ({
     id: i,
-    src: `/assets/photo${i + 1}.jpg`, // Cycles through photo1, photo2, photo3
+    src: `${process.env.PUBLIC_URL}/assets/photo${i + 1}.jpg`, // Cycles through photo1, photo2, photo3
     top: Math.random() * 80 + 10,
     left: Math.random() * 80 + 10,
     rotate: Math.random() * 30 - 15,

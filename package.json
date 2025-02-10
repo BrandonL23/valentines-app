@@ -16,15 +16,15 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/BrandonL23/valentines-app/issues"
   },
   "homepage": "https://BrandonL23.github.io/valentines-app",
   "dependencies": {
     "framer-motion": "^12.4.1",
-    "gh-pages": "^6.3.0",
     "react": "^19.0.0",
+    "react-confetti": "^6.2.2",
     "react-dom": "^19.0.0",
     "react-scripts": "^5.0.1"
   },
@@ -39,5 +39,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.26.8",
+    "@babel/preset-react": "^7.26.3",
+    "gh-pages": "^6.3.0"
   }
 }
